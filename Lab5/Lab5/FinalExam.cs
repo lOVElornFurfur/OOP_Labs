@@ -20,7 +20,7 @@ namespace Lab5 {
         public int Grade { get => _grade; set => _grade = value; }
         public string WorkPlace { get => _workPlace; set => _workPlace = value; }
 
-        public FinalExam() { }
+        
 
 
         public FinalExam(int _numOfStudents, string _difficulty, string _professor, int _date)

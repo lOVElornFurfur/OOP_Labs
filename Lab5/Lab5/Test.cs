@@ -25,13 +25,14 @@ namespace Lab5 {
 
         public string TypeOfTest { get => _typeOfTest; set => _typeOfTest = value; }
         public int NumOfQuestions { get => _numOfQuestions; set => _numOfQuestions = value; }
-        //public int Count { get => count; }
+        
 
         public Test(string _typeOfTest, int _numOfQuestions) {
             //count++;
             this._typeOfTest = _typeOfTest;
             this._numOfQuestions = _numOfQuestions;
         }
+        public Test() { }
 
         public override string ToString()
         {
